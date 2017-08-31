@@ -48,8 +48,7 @@ public class PruebaIT {
         driver.get("https://www.google.co.ve");
         
         WebElement CampoBuscar = driver.findElement(By.name("q"));
-        CampoBuscar.sendKeys("casa");
-        System.out.println("PRUEBA MIA ");
+        CampoBuscar.sendKeys("casa");//
         WebElement BotonBuscar = driver.findElement(By.name("btnK"));
         BotonBuscar.click();
         
