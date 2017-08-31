@@ -41,7 +41,7 @@ public class PruebaGoogle2 {
         
         WebElement CampoBuscar = driver.findElement(By.name("q"));
         CampoBuscar.sendKeys("casa");// PRUEBA1
-        //
+        ////
         WebElement BotonBuscar = driver.findElement(By.name("btnK"));
         BotonBuscar.click();
         
